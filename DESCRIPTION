@@ -1,2 +1,7 @@
 Package: Twenty
 Version: 0.1
+Date: 04-May-2022
+Title: Twenty, A data manipulation package created by the members of group number 20. 
+Description: Functions that MOLS uses during data cleaning, augmentation and data visualisation. 
+Author: Miss Oriade Latifah Simpson <s172084@dtu.dk>
+Maintainer: Miss Oriade Latifah Simpson <orie.simpson@gmail.com>
