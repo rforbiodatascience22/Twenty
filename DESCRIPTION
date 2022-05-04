@@ -1,5 +1,5 @@
 Package: Twenty
-Version: 0.1
+Version: 1.0
 Date: 04-May-2022
 Title: Twenty, A data manipulation package created by the members of group number 20. 
 Description: Functions that MOLS uses during data cleaning, augmentation and data visualisation. 
