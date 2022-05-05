@@ -4,12 +4,16 @@
 \alias{make_nested}
 \title{Nested dataset to use downstream}
 \usage{
-make_nested(long_dataset, Gene)
+make_nested(long_dataset, Gene, value, expression_level)
 }
 \arguments{
 \item{long_dataset}{}
 
 \item{Gene}{}
+
+\item{value}{}
+
+\item{expression_level}{}
 }
 \value{
 nested_outcome

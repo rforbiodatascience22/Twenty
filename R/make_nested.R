@@ -1,8 +1,12 @@
 #' Nested dataset to use downstream 
 #'
 #' Creates nested table of grouped genes that may be useful for further modelling.
+#'
 #' @param long_dataset 
+#' @param value 
+#' @param expression_level 
 #' @param Gene 
+#'
 #' @importFrom magrittr %>%
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @return nested_outcome
@@ -10,7 +14,7 @@
 #' @examples
 #' outcome <- make_nested(dataset, grouping_category)
 #' outcome 
-make_nested <- function(long_dataset, Gene) {
+make_nested <- function(long_dataset, Gene, value, expression_level) {
   nested_outcome <- long_dataset %>%
     # group the data by genes and put it in double brackets. 
     dplyr::group_by(Gene) %>%

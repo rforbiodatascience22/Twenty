@@ -4,10 +4,24 @@
 \alias{make_manhattan}
 \title{Creation of a Manhattan Plot}
 \usage{
-make_manhattan(wrangled_dataset)
+make_manhattan(
+  wrangled_dataset,
+  dna_segment,
+  negative_pvalue,
+  significance_id,
+  gene_name
+)
 }
 \arguments{
 \item{wrangled_dataset}{This is a dataset that has been cleaned}
+
+\item{dna_segment}{This is the gene column}
+
+\item{negative_pvalue}{This is the negative p value column}
+
+\item{significance_id}{This is the identified_as which shows if the gene is significant or not.}
+
+\item{gene_name}{This is the gene identification label.}
 }
 \value{
 visualisation_of_genes
