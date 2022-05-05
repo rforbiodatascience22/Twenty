@@ -3,6 +3,8 @@
 #' Perform data modelling using principal components analysis
 #' @param provided_dataset 
 #' @importFrom magrittr %>%
+#' @importFrom dplyr select
+#' @importFrom stats prcomp
 #' @return modelled_data
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @export
@@ -11,8 +13,8 @@
 #' pca_fit
 perform_pca <- function(provided_dataset) {
   modelled_data <- provided_dataset %>% 
-    select(where(is.numeric)) %>% # retain only numeric columns
-    prcomp(scale = TRUE, center = TRUE)
+    dplyr::select(where(is.numeric)) %>% # retain only numeric columns
+    stats::prcomp(scale = TRUE, center = TRUE)
   
   return(modelled_data)
 }

@@ -3,6 +3,7 @@
 #' Create a rotation table from a modelled PCA object. 
 #' @param pca_fit This is a model object. 
 #' @importFrom magrittr %>%
+#' @importFrom broom tidy
 #' @return rt
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @export
@@ -11,7 +12,7 @@
 #' rot_tab
 make_rotation_table <- function(pca_fit) {
   rt <- pca_fit %>%
-    tidy(matrix = "rotation")
+    broom::tidy(matrix = "rotation")
   
   return(rt)
 }

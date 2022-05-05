@@ -30,7 +30,7 @@ make_manhattan <- function(wrangled_dataset) {
     ) +
     ggplot2::theme_classic(base_family = "Helvetica") +
     ggplot2::theme(
-      axis.text.x = element_blank(),
+      axis.text.x = ggplot2::element_blank(),
       legend.position = "bottom"
     ) +
     ggplot2::labs(
