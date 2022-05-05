@@ -7,7 +7,6 @@
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @return nested_outcome
 #' @export
-#'
 #' @examples
 #' outcome <- make_nested(dataset, grouping_category)
 #' outcome 

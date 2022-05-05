@@ -6,13 +6,12 @@
 #' @return modelled_data
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @export
-#'
 #' @examples
 #' pca_fit <- perform_pca(a_dataset)
 #' pca_fit
 perform_pca <- function(provided_dataset) {
   modelled_data <- provided_dataset %>% 
-    dplyr::select(where(is.numeric)) %>% # retain only numeric columns
+    select(where(is.numeric)) %>% # retain only numeric columns
     prcomp(scale = TRUE, center = TRUE)
   
   return(modelled_data)

@@ -6,7 +6,6 @@
 #' @author Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @return visualisation_of_genes 
 #' @export
-#'
 #' @examples
 #' manhattan_plot <- make_manhattan(nested_dataset)
 #' manhattan_plot

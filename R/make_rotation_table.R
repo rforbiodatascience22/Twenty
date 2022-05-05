@@ -6,13 +6,12 @@
 #' @return rt
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @export
-#'
 #' @examples
 #' rot_tab <- make_rotation_table(fitted_pca_object)
 #' rot_tab
 make_rotation_table <- function(pca_fit) {
   rt <- pca_fit %>%
-    broom::tidy(matrix = "rotation")
+    tidy(matrix = "rotation")
   
   return(rt)
 }
