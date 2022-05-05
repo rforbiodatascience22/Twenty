@@ -12,7 +12,6 @@
 #' @examples
 #' pca_fit <- perform_pca(a_dataset)
 #' pca_fit
-utils::globalVariables("where")
 perform_pca <- function(provided_dataset) {
   modelled_data <- provided_dataset %>% 
     dplyr::select(where(is.numeric)) %>% # retain only numeric columns
@@ -20,3 +19,4 @@ perform_pca <- function(provided_dataset) {
   
   return(modelled_data)
 }
+utils::globalVariables("where")
