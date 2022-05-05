@@ -12,7 +12,7 @@
 #' @return nested_outcome
 #' @export
 #' @examples
-#' outcome <- make_nested(dataset, grouping_category)
+#' outcome <- make_nested(long_dataset, Gene, value, expression_level)
 #' outcome 
 make_nested <- function(long_dataset, Gene, value, expression_level) {
   nested_outcome <- long_dataset %>%

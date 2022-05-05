@@ -22,7 +22,7 @@ nested_outcome
 Creates nested table of grouped genes that may be useful for further modelling.
 }
 \examples{
-outcome <- make_nested(dataset, grouping_category)
+outcome <- make_nested(long_dataset, Gene, value, expression_level)
 outcome 
 }
 \author{

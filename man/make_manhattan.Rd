@@ -30,7 +30,8 @@ visualisation_of_genes
 Creation of a Manhattan plot from a small selection of expressed genes.
 }
 \examples{
-manhattan_plot <- make_manhattan(nested_dataset)
+manhattan_plot <- make_manhattan(wrangled_dataset, dna_segment,
+negative_pvalue, significance_id, gene_name)
 manhattan_plot
 }
 \author{
