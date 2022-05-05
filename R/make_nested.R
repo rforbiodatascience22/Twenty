@@ -2,10 +2,10 @@
 #'
 #' Creates nested table of grouped genes that may be useful for further modelling.
 #'
-#' @param long_dataset 
-#' @param value 
-#' @param expression_level 
-#' @param Gene 
+#' @param long_dataset This is the dataset provided
+#' @param value The is the value variable. 
+#' @param expression_level This is the expression level variable. 
+#' @param Gene This is the list of genes. 
 #'
 #' @importFrom magrittr %>%
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}

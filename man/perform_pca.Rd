@@ -7,7 +7,7 @@
 perform_pca(provided_dataset)
 }
 \arguments{
-\item{provided_dataset}{}
+\item{provided_dataset}{This is the dataset that is procided to the function}
 }
 \value{
 modelled_data

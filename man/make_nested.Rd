@@ -7,13 +7,13 @@
 make_nested(long_dataset, Gene, value, expression_level)
 }
 \arguments{
-\item{long_dataset}{}
+\item{long_dataset}{This is the dataset provided}
 
-\item{Gene}{}
+\item{Gene}{This is the list of genes.}
 
-\item{value}{}
+\item{value}{The is the value variable.}
 
-\item{expression_level}{}
+\item{expression_level}{This is the expression level variable.}
 }
 \value{
 nested_outcome
