@@ -13,7 +13,7 @@
 #' pca_fit
 perform_pca <- function(provided_dataset) {
   modelled_data <- provided_dataset %>% 
-    dplyr::select(where(is.numeric)) %>% # retain only numeric columns
+    dplyr::select(tidyselect::where(is.numeric)) %>% # retain only numeric columns
     stats::prcomp(scale = TRUE, center = TRUE)
   
   return(modelled_data)

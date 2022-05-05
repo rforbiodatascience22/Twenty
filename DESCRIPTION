@@ -7,6 +7,7 @@ Author: Miss Oriade Latifah Simpson <s172084@dtu.dk>
 Maintainer: Miss Oriade Latifah Simpson <orie.simpson@gmail.com>
 RoxygenNote: 7.1.2
 License: GPL (>= 3)
+Encoding: UTF-8
 Depends: 
     magrittr
 Imports: 
@@ -15,7 +16,8 @@ Imports:
     ggplot2,
     ggrepel,
     stringr,
-    tidyr
+    tidyr,
+    tidyselect
 Suggests: 
     knitr,
     rmarkdown
