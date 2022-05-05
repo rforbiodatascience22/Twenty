@@ -1,4 +1,4 @@
-#' my_data_two The cleaned dataset. 
+#' Example dataset 02_my_data_clean The cleaned dataset
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

@@ -1,4 +1,4 @@
-#' Model data using Principal Components analysis
+#' Example dataset Model data using Principal Components analysis
 #'
 #' Perform data modelling using principal components analysis
 #' @param provided_dataset This is the dataset that is procided to the function 

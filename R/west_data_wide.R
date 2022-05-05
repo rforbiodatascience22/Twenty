@@ -1,4 +1,4 @@
-#' west_data_wide A wide dataset
+#' Example dataset west_data_wide A wide dataset
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

@@ -1,4 +1,4 @@
-#' my_data_one The named dataset. 
+#' Example dataset 01_my_data 
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

@@ -1,4 +1,4 @@
-#' west The original raw data 
+#' Example dataset The original raw data 
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

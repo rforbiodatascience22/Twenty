@@ -1,4 +1,4 @@
-#' results_kmean_aug The augmented K maens results 
+#' Example dataset The Augmented KMeans Results 
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

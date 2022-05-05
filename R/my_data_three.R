@@ -1,4 +1,4 @@
-#' my_data_three The augmented dataset. 
+#' Example dataset 03_my_data_clean_aug The augmented dataset
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

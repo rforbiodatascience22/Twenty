@@ -1,4 +1,4 @@
-#' results_grand_pca The larger PCA table. 
+#' Example dataset results_grand_pca  A PCA table
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

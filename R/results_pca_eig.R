@@ -1,4 +1,4 @@
-#' results_pca_eig The PCA eigenvalues
+#' Example dataset PCA Eigenvalues
 #' 
 #' Data from Predicting the clinical status of human breast cancer by using gene expression profiles
 #' 

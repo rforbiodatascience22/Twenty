@@ -4,13 +4,24 @@
 # Twenty
 
 <!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of `Twenty` is to …
+`Twenty` is an R package created by group number 20 for a school
+project.
+
+`Twenty` provides a consistent set of verbs that help you solve the most
+common data analysis challenges.
 
 ## Installation
 
-You can install the development version of Twenty from
+### Development Version
+
+The easiest way to get `Twenty` is to install the whole package:
+
+You can install the development version of `Twenty` from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -18,11 +29,11 @@ You can install the development version of Twenty from
 devtools::install_github("rforbiodatascience22/Twenty")
 ```
 
-## Usage
+If you are new to `Twenty` the best place to start is this github
+repository.
 
 ``` r
 library(Twenty)
-#> Loading required package: magrittr
 ```
 
 ------------------------------------------------------------------------
