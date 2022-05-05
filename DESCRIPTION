@@ -16,3 +16,8 @@ Imports:
     ggrepel,
     stringr,
     tidyr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://rforbiodatascience22.github.io/Twenty/

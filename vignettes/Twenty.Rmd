@@ -1,0 +1,19 @@
+---
+title: "R for Bio Data Science Tools"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{R for Bio Data Science Tools}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Twenty)
+```
