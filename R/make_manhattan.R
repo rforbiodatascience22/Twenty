@@ -1,7 +1,7 @@
 #' Creation of a Manhattan Plot 
 #' 
 #' Creation of a Manhattan plot from a small selection of expressed genes. 
-#' @param wrangled_dataset 
+#' @param wrangled_dataset This is a dataset that has been cleaned
 #' @importFrom magrittr %>%
 #' @author Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @return visualisation_of_genes 

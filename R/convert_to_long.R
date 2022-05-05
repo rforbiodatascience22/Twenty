@@ -1,7 +1,7 @@
 #' Table of Genes in a long format
 #'
 #' Transformation of a gene expression matrix into a 3 column table. 
-#' @param the_dataset 
+#' @param the_dataset This is a dataset often in a wide format. 
 #' @importFrom magrittr %>%
 #' @return gene_data
 #' @author Oriade Latifah Simpson
