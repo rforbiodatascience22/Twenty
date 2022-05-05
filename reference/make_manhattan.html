@@ -78,8 +78,9 @@
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">manhattan_plot</span> <span class="op">&lt;-</span> <span class="fu">make_manhattan</span><span class="op">(</span><span class="va">nested_dataset</span><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in ggplot2::ggplot(., ggplot2::aes(x = dna_segment, y = negative_pvalue,     colour = significance_id, label = gene_name)):</span> object 'nested_dataset' not found</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">manhattan_plot</span> <span class="op">&lt;-</span> <span class="fu">make_manhattan</span><span class="op">(</span><span class="va">wrangled_dataset</span>, <span class="va">dna_segment</span>,</span>
+<span class="r-in"><span class="va">negative_pvalue</span>, <span class="va">significance_id</span>, <span class="va">gene_name</span><span class="op">)</span></span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in ggplot2::ggplot(., ggplot2::aes(x = dna_segment, y = negative_pvalue,     colour = significance_id, label = gene_name)):</span> object 'wrangled_dataset' not found</span>
 <span class="r-in"><span class="va">manhattan_plot</span></span>
 <span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'manhattan_plot' not found</span>
 </code></pre></div>

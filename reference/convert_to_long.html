@@ -64,8 +64,8 @@
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">my_long_data</span> <span class="op">&lt;-</span> <span class="fu">convert_to_long</span><span class="op">(</span><span class="va">gene_expression_table</span><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in pivot_longer(., (c(stringr::str_c("gene_", seq(1, 7129)))), names_to = "Gene",     values_to = "expression_level", values_drop_na = TRUE):</span> object 'gene_expression_table' not found</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">my_long_data</span> <span class="op">&lt;-</span> <span class="fu">convert_to_long</span><span class="op">(</span><span class="va">the_dataset</span><span class="op">)</span></span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in pivot_longer(., (c(stringr::str_c("gene_", seq(1, 7129)))), names_to = "Gene",     values_to = "expression_level", values_drop_na = TRUE):</span> object 'the_dataset' not found</span>
 <span class="r-in"><span class="va">my_long_data</span></span>
 <span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'my_long_data' not found</span>
 </code></pre></div>
