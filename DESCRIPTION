@@ -6,3 +6,4 @@ Description: Functions used during data cleaning, augmentation, modelling and da
 Author: Miss Oriade Latifah Simpson <s172084@dtu.dk>
 Maintainer: Miss Oriade Latifah Simpson <orie.simpson@gmail.com>
 RoxygenNote: 7.1.2
+License: GPL (>= 3)
