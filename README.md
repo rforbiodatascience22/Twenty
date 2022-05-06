@@ -30,7 +30,7 @@ devtools::install_github("rforbiodatascience22/Twenty")
 ```
 
 If you are new to `Twenty` the best place to start is this github
-repository.
+repository
 
 ``` r
 library(Twenty)

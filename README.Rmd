@@ -36,7 +36,7 @@ You can install the development version of `Twenty` from [GitHub](https://github
 devtools::install_github("rforbiodatascience22/Twenty")
 ```
 
-If you are new to `Twenty` the best place to start is this github repository.
+If you are new to `Twenty` the best place to start is this github repository
 
 ```{r example, message=FALSE, warning=FALSE}
 library(Twenty)
