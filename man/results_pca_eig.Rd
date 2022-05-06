@@ -3,7 +3,7 @@
 \docType{data}
 \name{results_pca_eig}
 \alias{results_pca_eig}
-\title{results_pca_eig The PCA eigenvalues}
+\title{Example dataset PCA Eigenvalues}
 \format{
 A dataframe
 }

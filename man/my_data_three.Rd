@@ -3,7 +3,7 @@
 \docType{data}
 \name{my_data_three}
 \alias{my_data_three}
-\title{my_data_three The augmented dataset.}
+\title{Example dataset 03_my_data_clean_aug The augmented dataset}
 \format{
 A dataframe
 }

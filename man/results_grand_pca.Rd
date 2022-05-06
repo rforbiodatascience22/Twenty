@@ -3,7 +3,7 @@
 \docType{data}
 \name{results_grand_pca}
 \alias{results_grand_pca}
-\title{results_grand_pca The larger PCA table.}
+\title{Example dataset results_grand_pca  A PCA table}
 \format{
 A dataframe
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/perform_pca.R
 \name{perform_pca}
 \alias{perform_pca}
-\title{Model data using Principal Components analysis}
+\title{Example dataset Model data using Principal Components analysis}
 \usage{
 perform_pca(provided_dataset)
 }

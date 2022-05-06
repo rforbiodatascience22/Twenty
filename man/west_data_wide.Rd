@@ -3,7 +3,7 @@
 \docType{data}
 \name{west_data_wide}
 \alias{west_data_wide}
-\title{west_data_wide A wide dataset}
+\title{Example dataset west_data_wide A wide dataset}
 \format{
 A dataframe
 }

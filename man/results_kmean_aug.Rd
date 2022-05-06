@@ -3,7 +3,7 @@
 \docType{data}
 \name{results_kmean_aug}
 \alias{results_kmean_aug}
-\title{results_kmean_aug The augmented K maens results}
+\title{Example dataset The Augmented KMeans Results}
 \format{
 A dataframe
 }

@@ -1,5 +1,5 @@
 Package: Twenty
-Version: 3.0
+Version: 4.0
 Date: 04-May-2022
 Title: Twenty, A data manipulation package created by the members of group number 20 
 Description: Functions used during data cleaning, augmentation, modelling and data visualisation. 

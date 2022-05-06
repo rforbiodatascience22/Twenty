@@ -3,7 +3,7 @@
 \docType{data}
 \name{my_data_two}
 \alias{my_data_two}
-\title{my_data_two The cleaned dataset.}
+\title{Example dataset 02_my_data_clean The cleaned dataset}
 \format{
 A dataframe
 }

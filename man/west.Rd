@@ -3,7 +3,7 @@
 \docType{data}
 \name{west}
 \alias{west}
-\title{west The original raw data}
+\title{Example dataset The original raw data}
 \format{
 A dataframe
 }
