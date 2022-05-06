@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">Twenty</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">4.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">5.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,27 +45,13 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">make_manhattan</span><span class="op">(</span>
-  <span class="va">wrangled_dataset</span>,
-  <span class="va">dna_segment</span>,
-  <span class="va">negative_pvalue</span>,
-  <span class="va">significance_id</span>,
-  <span class="va">gene_name</span>
-<span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">make_manhattan</span><span class="op">(</span><span class="va">wrangled_dataset</span><span class="op">)</span></code></pre></div>
     </div>
 
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>wrangled_dataset</dt>
 <dd><p>This is a dataset that has been cleaned</p></dd>
-<dt>dna_segment</dt>
-<dd><p>This is the gene column</p></dd>
-<dt>negative_pvalue</dt>
-<dd><p>This is the negative p value column</p></dd>
-<dt>significance_id</dt>
-<dd><p>This is the identified_as which shows if the gene is significant or not.</p></dd>
-<dt>gene_name</dt>
-<dd><p>This is the gene identification label.</p></dd>
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
@@ -78,9 +64,8 @@
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">manhattan_plot</span> <span class="op">&lt;-</span> <span class="fu">make_manhattan</span><span class="op">(</span><span class="va">wrangled_dataset</span>, <span class="va">dna_segment</span>,</span>
-<span class="r-in"><span class="va">negative_pvalue</span>, <span class="va">significance_id</span>, <span class="va">gene_name</span><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in ggplot2::ggplot(., ggplot2::aes(x = dna_segment, y = negative_pvalue,     colour = significance_id, label = gene_name)):</span> object 'wrangled_dataset' not found</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">manhattan_plot</span> <span class="op">&lt;-</span> <span class="fu">make_manhattan</span><span class="op">(</span><span class="va">wrangled_dataset</span><span class="op">)</span></span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in ggplot2::ggplot(., aes(x = Gene, y = neg_log10_p, colour = identified_as,     label = gene_label)):</span> object 'wrangled_dataset' not found</span>
 <span class="r-in"><span class="va">manhattan_plot</span></span>
 <span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'manhattan_plot' not found</span>
 </code></pre></div>
