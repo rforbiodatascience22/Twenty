@@ -6,3 +6,6 @@ inst/doc
 docs
 /doc/
 /Meta/
+Twenty.Rcheck/
+Twenty*.tar.gz
+Twenty*.tgz
