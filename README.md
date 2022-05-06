@@ -34,6 +34,7 @@ repository.
 
 ``` r
 library(Twenty)
+#> Loading required package: magrittr
 ```
 
 ------------------------------------------------------------------------
