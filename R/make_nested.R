@@ -12,8 +12,11 @@
 #' @return nested_outcome
 #' @export
 #' @examples
-#' outcome <- make_nested(long_dataset, Gene, value, expression_level)
-#' outcome 
+#' data("data_two")
+#  my_data_two
+#  gdl <- convert_to_long(my_data_two)
+#  wd <- make_nested(gdl, `Gene`)
+#  wd
 make_nested <- function(long_dataset, Gene, value, expression_level) {
   nested_outcome <- long_dataset %>%
     # group the data by genes and put it in double brackets. 

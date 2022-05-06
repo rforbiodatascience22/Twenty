@@ -16,7 +16,9 @@ gene_data
 Transformation of a gene expression matrix into a 3 column table.
 }
 \examples{
-my_long_data <- convert_to_long(the_dataset)
+data("data_two")
+my_data_two
+my_long_data <- convert_to_long(my_data_two)
 my_long_data
 }
 \author{

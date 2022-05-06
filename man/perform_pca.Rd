@@ -16,7 +16,9 @@ modelled_data
 Perform data modelling using principal components analysis
 }
 \examples{
-pca_fit <- perform_pca(a_dataset)
+data("wide_wide_west")
+west_data_wide
+pca_fit <- perform_pca(west_data_wide)
 pca_fit
 }
 \author{

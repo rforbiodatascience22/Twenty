@@ -10,7 +10,9 @@
 #' @author Miss Oriade Latifah Simpson, \email{s172084@@dtu.dk}
 #' @export
 #' @examples
-#' pca_fit <- perform_pca(a_dataset)
+#' data("wide_wide_west")
+#' west_data_wide
+#' pca_fit <- perform_pca(west_data_wide)
 #' pca_fit
 perform_pca <- function(provided_dataset) {
   modelled_data <- provided_dataset %>% 

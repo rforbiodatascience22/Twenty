@@ -8,7 +8,9 @@
 #' @author Oriade Latifah Simpson
 #' @export
 #' @examples
-#' my_long_data <- convert_to_long(the_dataset)
+#' data("data_two")
+#' my_data_two
+#' my_long_data <- convert_to_long(my_data_two)
 #' my_long_data
 convert_to_long <- function(the_dataset) {
   gene_data <- the_dataset %>%

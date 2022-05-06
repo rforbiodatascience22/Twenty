@@ -11,7 +11,8 @@
 #' manhattan_plot
 make_manhattan <- function(wrangled_dataset) {
   visualisation_of_genes <- wrangled_dataset %>%
-    ggplot2::ggplot(aes(
+    ggplot2::ggplot(
+      ggplot2::aes(
       x = Gene, y = neg_log10_p,
       colour = identified_as,
       label = gene_label

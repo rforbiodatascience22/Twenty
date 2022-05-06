@@ -16,6 +16,10 @@ rt
 Create a rotation table from a modelled PCA object.
 }
 \examples{
+data("wide_wide_west")
+west_data_wide
+fitted_pca_object <- perform_pca(west_data_wide)
+fitted_pca_object
 rot_tab <- make_rotation_table(fitted_pca_object)
 rot_tab
 }
